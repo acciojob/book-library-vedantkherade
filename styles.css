@@ -11,12 +11,19 @@
       margin: 20px auto;
       background-color: #ffffff;
       padding: 20px;
-      box-shadow: 0 2px 5px lightgray;
+      box-shadow: 2px 2px 5px lightgray;
+      display: flex;
+	  flex-direction: column;
+	  gap: 20px;
     }
 
 .book-library h2 {
       text-align: center;
       margin-bottom: 20px;
+}
+
+.book-library{
+	background-color: lightgray;
 }
 
 .book {
@@ -45,7 +52,7 @@
 
     .price {
       background-color: green;
-	   width: 90%;
+	  width: 90%;
       color: white;
       padding: 10px;
       display: inline-block;
